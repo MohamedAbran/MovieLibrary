@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("https://cdn.pixabay.com/photo/2016/09/14/08/18/film-1668918_1280.jpg");
+	font-family: Arial;
+
+}
+.index ul{
+	list-style: none;
+	
+	padding: 0;
+	margin: 0;
+	text-align: right;
+	
+	
+}
+.index li{
+	display: inline-block;
+	
+}
+.index a{
+	text-decoration: none;
+	color: #fff;
+	width: 100px;
+	display: block;
+	padding: 25px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: arial;
+	text-align: center;
+	font-size: 14px;
+}
+
+.index a:hover{
+	 
+	 background:#353640;
+}
+h1{
+	text-align: center;
+}
